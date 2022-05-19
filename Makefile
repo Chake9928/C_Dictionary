@@ -2,7 +2,7 @@ SRCS	= cut_space.c dict_struct.c main.c nketa.c parse.c split.c functions.c mike
 
 OBJS	= ${SRCS:.c=.o}
 
-NAME	= rush-02
+NAME	= c_dict
 
 CC+FLAGS		= gcc -Werror -Wall -Wextra -o
 RM		= rm -f
